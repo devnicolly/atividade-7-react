@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+/* css geral */
+
+*{
+	font-family: "Lexend Giga", serif;
+	font-weight: 400;
+}
+
+button{
+	border: none;
+	height: 4vh;
+	margin: 2px;
+	cursor: pointer;
+	border-radius: 5px;
+} button:hover{
+	background-color: #7b5791;
+	color: #FFFF;
+}
+
+input{
+	border: none;
+	background-color: #e2d7eb;
+	height: 4vh;
+} input::placeholder{
+	color: #7b5791 ;
+}
+
+/* css app.jsx */
+
+.app-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center ;
+	align-items: center;
+	margin: 2%;
+}
+
+.conteudo-desafio{
+	margin-top: 5%;
+}
+
+.botao-desafio{
+	height: 6vh;
+	border-radius: 5px;
+	margin: 5px;
+} 
+
+#titulo-app{
+	color: #7b5791;
+	font-weight: 700;
+}
+
+/* css contador */
+
+.botao-contador:hover{
+	transform: scale(1.1);
+}
+
+/* css mudarbackground */
+
+.div-background{
+	font-family: "Lexend Giga", serif;
+	font-weight: 400;
+	font-size: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid rgba(119, 115, 115, 0.447);
+	height: 50vh;
+	width: 50vw;
+
+}
+
+.botao-background{
+	font-family: "Lexend Giga", serif;
+  	font-weight: 400;
+	font-size: 0.8rem;
+	border: none;
+	height: 5vh;
+	width: 9vw;
+	border-radius: 8px;
+	background-color: black;
+	color: aliceblue;
+}
+
+/* css listatarefas */
+
+.add-tarefa{
+	margin-bottom: 20px;
+}
+
+/* css formularioregistro */
+
+.formulario input{
+	margin: 2%;
+}
+
+/* css da galeria de imagens :)) */
+
+.galeria-container {
+	text-align: center;
+  }
+  
+  .galeria-imagens {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+  }
+  
+  .imagem-item {
+	width: 15vw;
+	cursor: pointer;
+	border: 2px solid #ddd;
+	transition: transform 0.2s;
+  }
+  
+  .imagem-item:hover {
+	transform: scale(1.1);
+  }
+  
+  .modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .modal-conteudo {
+	position: relative;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+  }
+  
+  .imagem-ampliada {
+	width: 40vw;
+  }
+  
+  .botao-fechar {
+	position: absolute;
+	width: 2vw;
+	top: 2px;
+	right: 5px;
+	background: #7b5791;
+	color: white;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .navegacao-botoes button {
+	margin: 10px;
+	padding: 5px 10px;
+  }
+
+  /* css Abas.jsx */
+
+.abas-navegacao button{
+	border: none;
+	margin: 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	height: 4vh;
+} .abas-navegacao button:hover{
+	background-color: #7b5791;
+	color: #FFFF;
+}
